@@ -1,5 +1,5 @@
 import React from 'react'
-import { AuthLayout } from '../../components/layouts/auth'
+import { AuthLayout } from '../../components/layouts/Auth'
 
 const signin = () => {
     return (
