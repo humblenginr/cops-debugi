@@ -18,14 +18,14 @@ export const AuthLayout = ({ isSignin }) => {
   }, [user]);
     if(isLoading)  return <SpringLoading windowWidth={width}/>
   return (
-      <div className="container-fluid vh-100 vw-100>
-        <div className="row">
-      <div className="col-8 auth-background" />
-        <div className="col-4 align-items-center justify-content-center d-flex px-5 border">
-          <AuthForms heading={isSignin ? "Signin": "Signup" } btnText={isSignin ? "Signin" : "Signup" } />
-        </div>
-    </div>
-    </div>
+      <div className="container-fluid vh-100 vw-100">
+         <div className="row">
+           <div className="col-8 auth-background" />
+               <div className="col-4 align-items-center justify-content-center d-flex px-5 border">
+                   <AuthForms heading={isSignin ? "Signin": "Signup" } btnText={isSignin ? "Signin" : "Signup" } />
+              </div>
+         </div>
+      </div>
   );
 
 };
