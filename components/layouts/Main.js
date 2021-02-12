@@ -1,6 +1,6 @@
 import React from 'react'
 import { useAuthenticate } from '../../Hooks/useAuthenticate'
-import { Navbar } from '../navbar/navbar'
+import { Navbar } from '../navbar/Navbar'
 import { StatusBar } from '../statusBar/StatusBar';
 
 export const Main = ({children}) => {
