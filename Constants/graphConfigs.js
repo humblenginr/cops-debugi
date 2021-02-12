@@ -5,7 +5,7 @@ export const msalConfig = {
     clientId: "e33c2017-bc01-4783-8c21-f28ad37a2d87",
     authority:
       "https://login.microsoftonline.com/4d0555fb-be31-4128-94f9-734927b1613d",
-    redirectUri: "http://localhost:8000/calendar",
+    redirectUri: "https://cops-debugit.vercel.app/calendar",
   },
   cache: {
     cacheLocation: "sessionStorage", // This configures where your cache will be stored
