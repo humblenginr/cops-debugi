@@ -3,8 +3,7 @@ import React, { useEffect } from 'react'
 export const useAddTeamsEvents = (teamsEvents,setEvents,events) => {
     useEffect(() => {
         if(teamsEvents){
-            if(events){
-
+            if(events.length){
                 setEvents(prev => {
                     const data = prev;
                     console.log(prev);
