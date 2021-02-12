@@ -16,7 +16,7 @@ export const useAddTeamsEvents = (teamsEvents,setEvents,events) => {
                     return data;
                         }
                                  teamsEvents.forEach((event,index) => {
-                        event.Id = index+1+lastElemId;
+                        event.Id = index+1;
                         data.push(event);
                     });
                     return data;
